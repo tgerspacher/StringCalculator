@@ -18,4 +18,7 @@ describe StringCalculator do
   it "returns the single number provided" do
     string_calculator.add('1').should eq 1
   end
+
+  it "returns the sum of two numbers provided" do
+    string_calculator.add("1,2").should eq 3
 end
